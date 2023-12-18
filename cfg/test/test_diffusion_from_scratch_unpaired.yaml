@@ -1,8 +1,8 @@
 #### Test Settings
 on_diffusion_from_scratch: True
-test_folder_unpaired: "/hdda/Datasets/VOC2007/voctrainval_06-nov-2007/VOCdevkit/VOC2007/JPEGImages/"
-results_folder_unpaired: './results_unpaired_voc2007_trainval'
-diffusion_path:  "N2LDiff/5oqso2fo/checkpoints/epoch=997-monitor=3.85.ckpt"
+test_folder_unpaired: ""
+results_folder_unpaired: './results_unpaired'
+diffusion_path:  "checkpoints/epoch=997-monitor=3.85.ckpt"
 use_wandb: False
 PaperImageExtractor: False
 decrease_resolution: False

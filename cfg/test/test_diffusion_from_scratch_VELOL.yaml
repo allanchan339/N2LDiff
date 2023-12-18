@@ -2,7 +2,7 @@
 on_diffusion_from_scratch: True
 test_folder: "data/VE-LOL-L/VE-LOL-L-Cap-Full/test"
 results_folder: './results_scratch_VELOL'
-diffusion_path:  "N2LDiff/5oqso2fo/checkpoints/epoch=997-monitor=3.85.ckpt"
+diffusion_path:  "checkpoints/epoch=997-monitor=3.85.ckpt"
 use_wandb: True
 PaperImageExtractor: False
 paddingMode: False # if null, then center crop applied
