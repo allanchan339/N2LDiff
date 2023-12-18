@@ -1,0 +1,60 @@
+{
+    // 使用 IntelliSense 以得知可用的屬性。
+    // 暫留以檢視現有屬性的描述。
+    // 如需詳細資訊，請瀏覽: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: test synthetic_compare.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--test_dir_pred",
+                "/code/EnlightDiff/data/LOL/eval15/high",
+                "--test_dir_gt",
+                "/code/EnlightDiff/data/LOL/eval15/low"
+            ]
+        },
+        {
+            "name": "Python: train for scratch",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--cfg",
+                "cfg/train/from_scratch.yaml"
+            ]
+        },
+        {
+            "name": "Python: test for scratch",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--cfg",
+                "cfg/test/test_diffusion_from_scratch_unpaired.yaml"
+            ]
+        },
+        {
+            "name": "Python: test ref.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--test_dir_pred",
+                "/code/EnlightDiff/results_scratch",
+                "--test_dir_gt",
+                "/code/EnlightDiff/data/LOL/eval15/low"
+            ]
+        },
+    ]
+}

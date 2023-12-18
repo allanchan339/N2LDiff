@@ -1,0 +1,62 @@
+#### Test Settings
+on_diffusion_from_scratch: True
+test_folder_unpaired: "/hdda/Datasets/VOC2007/voctrainval_06-nov-2007/VOCdevkit/VOC2007/JPEGImages/"
+results_folder_unpaired: './results_unpaired_voc2007_trainval'
+diffusion_path:  "N2LDiff/5oqso2fo/checkpoints/epoch=997-monitor=3.85.ckpt"
+use_wandb: False
+PaperImageExtractor: False
+decrease_resolution: False
+paddingMode: True # if null, then center crop applied
+# hardware setting
+devices: 1
+
+# wandb setting
+group: 'LOL-5oqso2fo'
+entity: null
+project_diffusion_from_scratch : 'N2LDiff'
+group_test: 'test_only'
+
+# pytorch lightning
+precision: 32  # half precision, or mixed precision
+accelerator: 'auto'
+
+# model
+seed: 3407
+in_dim: 6
+unet_dim: 64
+unet_outdim: 3
+dim_mults: !!python/tuple [1, 2, 2, 4, 4, 8]
+use_attn: False
+use_wn: True
+use_instance_norm: True
+weight_init: True
+stronger_cond: True
+
+# Diffusion 
+return_all_timesteps: False
+clip_denoised: True  # clip when reverse process,
+rescale_ratio: 1.0
+timesteps: 100
+on_res: False
+use_center: True
+use_center_sampler: True
+on_cond: 'img_lr'  # img_c, img_lr or h(img_lr)
+sample_mode: 'ddpm'
+lpips_type: 'vgg' #'alex', 'vgg', 'squeeze'
+
+# encoder
+cond_on_res: False # if on_diffusion_from_scratch = True, cond_on_res = True
+cond_in_dim: 12
+cond_use_wn: True
+
+# dataset
+image_size: 160
+scale_factor: 1.0
+pin_memory: False
+num_workers: 8
+color_space: 'rgb'
+persistent_workers: True
+batch_size: 32
+switch_normal_low: True
+
+
