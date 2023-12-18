@@ -54,7 +54,7 @@ python train.py --cfg cfg/train/from_scratch.yaml
 ```
 
 # Testing
-## trained Model
+## Trained Model
 Trained model can be downloaded from [here](https://connectpolyu-my.sharepoint.com/:u:/g/personal/17067305d_connect_polyu_hk/EZGcB71gNDJAmJ_CEp4qr0oB81WhMLYXs3D6vCuxPBuc5w?e=4hF1eP)
 
 The model should be placed in the folder `checkpoints/`.
@@ -105,6 +105,7 @@ Here is the corresponding normal light dataset VOC2007:
 1. [trainval](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tahttp://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar)
 
 2. [test](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar)
+
 # Citation
 If you find the resource useful, please cite the following :- )
 
