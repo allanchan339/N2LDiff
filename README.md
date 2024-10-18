@@ -1,3 +1,4 @@
+# Generative Strategy for Low and Normal Light Image Pairs with Enhanced Statistical Fidelity
 ![Alt text](fig/image.png)
 
 # Abstract
@@ -108,6 +109,18 @@ Here is the corresponding normal light dataset VOC2007:
 
 # Citation
 If you find the resource useful, please cite the following :- )
+```
+@INPROCEEDINGS{10444437,
+  author={Chan, Cheuk-Yiu and Siu, Wan-Chi and Chan, Yuk-Hee and Chan, H. Anthony},
+  booktitle={2024 IEEE International Conference on Consumer Electronics (ICCE)}, 
+  title={Generative Strategy for Low and Normal Light Image Pairs with Enhanced Statistical Fidelity}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-3},
+  keywords={Training;Deep learning;Diffusion processes;Lighting;Distortion;Data models;Task analysis;Low Light Image Enhancement;Generative Model;Diffusion;Data Augmentation},
+  doi={10.1109/ICCE59016.2024.10444437}}
+```
 
 # Contact
 Thanks for your attention! If you have any suggestion or question, feel free to leave a message here or contact me via cy3chan@cihe.edu.hk.
