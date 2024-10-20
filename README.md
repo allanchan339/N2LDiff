@@ -123,4 +123,4 @@ If you find the resource useful, please cite the following :- )
 ```
 
 # Contact
-Thanks for your attention! If you have any suggestion or question, feel free to leave a message here or contact me via cy3chan@cihe.edu.hk.
+Thanks for your attention! If you have any suggestion or question, feel free to leave a message here or contact me via cy3chan@sfu.edu.hk.
