@@ -1,5 +1,5 @@
 # Generative Strategy for Low and Normal Light Image Pairs with Enhanced Statistical Fidelity
-by C-Y Chan, W-C Siu, Y-H Chan and H. A Chan
+by C.-Y. Chan, W.-C. Siu, Y.-H. Chan and H. A Chan
 ![Alt text](fig/image.png)
 
 # Abstract
