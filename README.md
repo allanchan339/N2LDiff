@@ -9,7 +9,7 @@ Low light image enhancement remains challenging due to limited availability of r
 To install the dependencies, run the following command:
 
 ```
-git clone https://github.com/allanchan339/N2LDiff-Public
+git clone https://github.com/allanchan339/N2LDiff
 conda env create --name N2L --file=environments.yaml
 ```
 
